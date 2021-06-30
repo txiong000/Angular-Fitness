@@ -1,0 +1,39 @@
+.nav-container {
+    width: 100%;
+    height: 50px;
+    background-color: deepskyblue;
+    margin: 0;
+    color: #ffffff;
+}
+
+.navigation {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signup, .log-in {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.signup:hover, .log-in:hover {
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+
+.logo-name {
+    margin-left: 115px;
+    font-size: 1.5em;
+}
+
+.signup {
+    margin-left: auto;
+    font-size: 1.1em;
+}
+
+.log-in {
+    margin: 0 115px;
+    font-size: 1.1em;
+}
