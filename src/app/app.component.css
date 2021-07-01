@@ -37,3 +37,29 @@
     margin: 0 115px;
     font-size: 1.1em;
 }
+
+.ham-icon {
+    display: none;
+}
+
+@media screen and (max-width: 667px){
+
+    .ham-icon {
+        display: inline;
+        margin-left: 20px;
+        font-size: 2em;
+    }
+
+    .ham-icon:hover {
+        cursor: pointer;
+    }
+
+    .logo-name {
+        margin: 0 auto;
+    }
+
+    .signup, .log-in {
+        display: none;
+    }
+    
+}

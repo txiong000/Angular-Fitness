@@ -1,9 +1,10 @@
 <div class="nav-container">
   <nav class="navigation">
+    <fa-icon class="ham-icon" [icon]="faBars"></fa-icon>
     <div class="logo-name">
       Fitness Track
     </div>
-    <div class="signup">
+    <div class="signup" routerLink="/signup">
       Sign Up
     </div>
     <div class="log-in">
@@ -11,3 +12,5 @@
     </div>
   </nav>  
 </div>
+
+<router-outlet></router-outlet>
