@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SignupFormComponent } from './signup-form/signup-form.component';
+import { LoginFormComponent } from './login-form/login-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    SignupFormComponent
+    SignupFormComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,

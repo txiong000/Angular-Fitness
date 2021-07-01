@@ -9,14 +9,4 @@ export class AppComponent {
   title = 'Fitness-Tracker-Angular';
   faBars = faBars;
 
-  switchForm:boolean = false;
-  signUpLogin() {
-    if(!this.switchForm)
-    {
-      this.switchForm = true;
-    } else {
-      this.switchForm = false;
-    }
-    console.log(this.switchForm)
-  }
 }
